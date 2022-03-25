@@ -1,6 +1,0 @@
-framework module CBLibrary {
-  umbrella header "CBLibrary-umbrella.h"
-
-  export *
-  module * { export * }
-}

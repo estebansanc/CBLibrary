@@ -2,7 +2,7 @@
   "name": "CBLibrary",
   "version": "0.1.0",
   "summary": "CrazyFarWay Base Library for iOS Mobile Development with UIKit.",
-  "description": "CrazyFarWay Base Library for iOS Mobile Development with UIKit.",
+  "description": "CrazyFarWay Base Library for iOS Mobile Development with UIKit.\nThis library contains a lot of util extensions, base and generic classes that will help you build your programmatic apps faster.",
   "homepage": "https://github.com/estebansanc/CBLibrary",
   "license": {
     "type": "MIT",
@@ -18,10 +18,12 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "CBLibrary/Utils/**/*",
+  "source_files": "CBLibrary/**/*.{swift}",
+  "swift_versions": "5.0",
   "dependencies": {
     "SkeletonView": [
       "~> 1.26.0"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
