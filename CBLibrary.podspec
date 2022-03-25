@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 CrazyFarWay Base Library for iOS Mobile Development with UIKit.
+This library contains a lot of util extensions, base and generic classes that will help you build your programmatic apps faster.
                        DESC
 
   s.homepage         = 'https://github.com/estebansanc/CBLibrary'
@@ -33,7 +34,8 @@ CrazyFarWay Base Library for iOS Mobile Development with UIKit.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CBLibrary/Utils/**/*'
+  s.source_files = "CBLibrary/**/*.{swift}"
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'CBLibrary' => ['CBLibrary/Assets/*.png']

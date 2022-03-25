@@ -34,7 +34,7 @@ extension UIView {
         let borderWidth = CGFloat(1)
         let borderLayer = CALayer()
         borderLayer.frame = CGRect(x: 0, y: -borderWidth, width: self.frame.width, height: self.frame.height + borderWidth)
-        borderLayer.borderColor = ColorsApp.skeletonBackground.get().cgColor
+        borderLayer.borderColor = UIColor.lightGray
         borderLayer.borderWidth = 1
         self.layer.addSublayer(borderLayer)
     }
