@@ -3,11 +3,11 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'CBLibrary_Example' do
-  pod 'CBLibrary', :path => '../'
-
-  target 'CBLibrary_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  pod 'CBLibrary', :path => '../'
+#
+#  target 'CBLibrary_Tests' do
+#    inherit! :search_paths
+#
+#
+#  end
 end
