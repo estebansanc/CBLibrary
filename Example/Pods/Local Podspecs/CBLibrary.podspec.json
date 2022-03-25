@@ -1,8 +1,8 @@
 {
   "name": "CBLibrary",
   "version": "0.1.0",
-  "summary": "A short description of CBLibrary.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "CrazyFarWay Base Library for iOS Mobile Development with UIKit.",
+  "description": "CrazyFarWay Base Library for iOS Mobile Development with UIKit.",
   "homepage": "https://github.com/estebansanc/CBLibrary",
   "license": {
     "type": "MIT",
@@ -16,7 +16,12 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
-  "source_files": "CBLibrary/Classes/**/*"
+  "source_files": "CBLibrary/Utils/**/*",
+  "dependencies": {
+    "SkeletonView": [
+      "~> 1.26.0"
+    ]
+  }
 }

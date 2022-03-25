@@ -1,15 +1,22 @@
 PODS:
-  - CBLibrary (0.1.0)
+  - CBLibrary (0.1.0):
+    - SkeletonView (~> 1.26.0)
+  - SkeletonView (1.26.2)
 
 DEPENDENCIES:
   - CBLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SkeletonView
 
 EXTERNAL SOURCES:
   CBLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CBLibrary: ca363bccea068a9290cd66d498f923eeea25e424
+  CBLibrary: e83295e6535a5007d5c8901d0f3e5f5b30a2db8a
+  SkeletonView: 8d1d2d23d0c8c691501fbc003f909f0ed7045d5f
 
 PODFILE CHECKSUM: 1d48efb8667ac8a086a9b5b57f8ed553bd9b0679
 
