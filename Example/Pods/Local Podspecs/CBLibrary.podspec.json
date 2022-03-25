@@ -1,0 +1,22 @@
+{
+  "name": "CBLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of CBLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/estebansanc/CBLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "estebansanc": "esteban.nicolas.sanc@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/estebansanc/CBLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CBLibrary/Classes/**/*"
+}

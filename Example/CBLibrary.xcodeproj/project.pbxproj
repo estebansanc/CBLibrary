@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		02CBA3BF5A05DA0AC41F0360 /* Pods-CBLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CBLibrary_Tests/Pods-CBLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0AF69F67E55BCE844980860C /* Pods_CBLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BF4E1A6123290FB596BEEA3 /* CBLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CBLibrary.podspec; path = ../CBLibrary.podspec; sourceTree = "<group>"; };
+		0BF4E1A6123290FB596BEEA3 /* CBLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CBLibrary.podspec; path = ../CBLibrary.podspec; sourceTree = "<group>"; };
 		27BE6602F2B3E6071A00F9C7 /* Pods-CBLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-CBLibrary_Example/Pods-CBLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CBLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		637427F3A1A85ABE3A033DED /* Pods-CBLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-CBLibrary_Example/Pods-CBLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8C42F2BE64ECADD70EF0F794 /* Pods_CBLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C626BB9677E77274A79CACC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C626BB9677E77274A79CACC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CDCFDD181FA6C242CC9ADB46 /* Pods-CBLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-CBLibrary_Tests/Pods-CBLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F1221C83EFDF0E6A8293A3D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F1221C83EFDF0E6A8293A3D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				02CBA3BF5A05DA0AC41F0360 /* Pods-CBLibrary_Tests.debug.xcconfig */,
 				CDCFDD181FA6C242CC9ADB46 /* Pods-CBLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P5CQXBWUA8;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,10 +479,11 @@
 			baseConfigurationReference = 637427F3A1A85ABE3A033DED /* Pods-CBLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5CQXBWUA8;
 				INFOPLIST_FILE = CBLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = crazy.base.library;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +495,11 @@
 			baseConfigurationReference = 27BE6602F2B3E6071A00F9C7 /* Pods-CBLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5CQXBWUA8;
 				INFOPLIST_FILE = CBLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = crazy.base.library;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
